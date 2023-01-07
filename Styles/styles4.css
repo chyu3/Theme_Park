@@ -3,10 +3,17 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-#header{
+}#header{
     font-family: 'Trebuchet MS', sans-serif;
     padding: auto;
+}
+.swiper{
+    width:fit-content;
+    height:fit-content;
+}
+.swiper-slide img{
+    width:fit-content;
+    align-items:flex-start;
 }
 .navigation_bar{
     background-color: #333;
@@ -18,14 +25,33 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-
-/*Note: This is one of the only ways I found to make a heading. TODO: Make it look similar to the wireframing
- but this will work for now.*/
- #navbox{
+}#navbox{
     float: left;
 }
-  
+
+h1.caption1{
+    color:aliceblue;
+    text-size-adjust: 300px;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    background:#255;
+    display:flex;
+}
+div{ 
+    background-color: rgba(27, 204, 228, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-width: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
 #navbox a{
     display: flex;
     color: white;
@@ -43,22 +69,80 @@
 .selectednav{
     background-color: #111;
 }
-
-div{ 
-    background-color: rgba(27, 204, 228, 0.5);
-    border-width: 2px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.gallery{
+.logo {
     width: 100%;
+    height: 50px;
+    text-align: center;
 }
-.logo{
-    height: 5%;
-    width: 5%;
-    padding: 5px;
-    margin: 0;
+body{
+    background-color:rgba(27, 204, 228, 0.5);
+    background-size:100%
+}
+
+.box_container{
+    display:flex;
+    justify-content:safe center;
+    align-items: center;
+
+}
+.box{
+    background-color: rgb(49, 19, 161);
+    margin: 40px;
+    padding: 20px;
+    height: 2000px;
+    width: 2000px;
+    border-style: outset;
+    border-width: 20px;
+    border-color: rgba(49, 19, 161, 0.47);
+
+}
+.boximages{
+    width: 100%;
+    height: 50%;
+}
+.boxheader{
+    text-align: center;
+    font-size: 40px;
+    color: pink
+}
+.boxpara{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.boxbutton{
+    background-color: rgb(0, 0, 91);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 200px;
+    border-style: solid;
+    width: 1900px;
+    height:fit-content;
+}
+.boxbuttonheader{
+    color: yellow;
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-size-adjust: 50px;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif
+}
+h4{
+    text-align: center;
+    text-size-adjust: 50px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {vertical-align:top; }
+body{
+    width: auto;
+    overflow:inherit;
 }
