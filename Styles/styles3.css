@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#header{
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: auto;
+}
+.navigation_bar{
+    background-color: #333;
+    text-align: center;
+}
+.nav{
+    list-style-type: none;
+    margin-left: 36%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*Note: This is one of the only ways I found to make a heading. TODO: Make it look similar to the wireframing
+ but this will work for now.*/
+ #navbox{
+    float: left;
+}
+  
+#navbox a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbox a b{
+    background-color: #111;
+}
+#navbox a:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+.selectednav{
+    background-color: #111;
+}
+
+div{ 
+    background-color: rgba(131, 197, 207, 0.2);
+    border-radius: 2px;
+    border-width: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery{
+    width: 100%;
+}
+.logo{
+    height: 5%;
+    width: 5%;
+    padding: 5px;
+    margin: 0;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#mainbox{
+    position: absolute;
+    margin: 50px;
+    padding: 50px;
+}
+
+.container2{
+    display: inline-grid;
+    width: 1344px;
+    border: 3px solid rgb(0, 255, 208);
+    object-position: center;
+    padding: 10px;
+    min-height: 40;
+    
+
+.c2-item{
+    width: 200px;
+    padding: 5px;
+    display: inline-grid;
+    border-radius: 1px;
+    column-gap: 80px;
+    grid-row-start: 1;
+}
+
+img.MerchLogo{
+    background: transparent;
+    border: 5px transparent rgb(5, 159, 237);
+    border-radius: 1px;
+    max-width: 100%;
+}
+
+img.option2 {
+    background: transparent;
+    border: 3px solid rgba(116, 141, 153, 0.2);
+    border-radius: 10px;
+    max-width: 50%;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 100px;
+    text-decoration: underline;
+    color: rgb(0, 255, 213);
+}
+
+body{
+    background-color: rgb(35, 123, 225);
+    background-image: url(/Images/Fireworks3.jpg);    
+}
+
