@@ -188,3 +188,9 @@ label{
     text-align: center;
     border: #333;
 }
+
+h2.credit{
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}

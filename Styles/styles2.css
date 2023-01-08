@@ -142,3 +142,9 @@ body{
     color: orangered;
     background-color: rgba(0, 255, 255, 0.438);
 }
+
+h2{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}

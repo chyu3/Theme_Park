@@ -125,3 +125,9 @@ body{
     font-size: 20px;
     padding: 0;
 }
+
+h2{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
