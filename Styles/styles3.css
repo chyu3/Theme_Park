@@ -63,22 +63,11 @@
     background-color: rgba(173, 207, 212, 0.2);
 }
 
-div{ 
-   
-
-    /* margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto; */
-}
-
 .container2{
     display: grid;
-    grid-template-columns: 180px 100px 180px 100px 180px 100px 180px 100px 100px;
+    grid-template-columns: 190px 100px 180px 110px 180px 100px 180px 100px 100px;
     column-gap: 10px;
     background-color: rgba(173, 207, 212, 0.2);
-    
-    
 }
     
 
@@ -94,11 +83,10 @@ background-color: rgb(95, 169, 169); */
     width: 200px;
     padding: 10px;
     margin-top: 10px;
-    
-    
-    font-size: 10px;
+    font-size: 14px;
     font-style: italic;
     font-weight: 10%;
+    color:rgb(40, 46, 44);
 }
 
 
@@ -127,6 +115,26 @@ h1{
     color: rgb(0, 255, 213);
 }
 
+h3{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 10px;
+    color:antiquewhite;
+    text-decoration:overline;
+    font-size: 50px;
+    font-style: italic;
+}
+
+h4{
+    color: rgb(0, 255, 213);
+}
+
+#lorem{
+    color: white;
+    font-size: 12px;
+    font-family: fantasy;
+}
+
 body{
     background-color: rgb(255, 255, 255);
     background-image: url(/Images/bg1.jpg);    
@@ -135,14 +143,48 @@ body{
 
 .container3{
     display: grid;
-    width: 1344px;
-    object-position: center;
+    width: 100%;
+    grid-template-columns: auto auto;
+    
+    column-gap: 60px;
+    row-gap:50px;
     padding: 10px;
     min-height: 40;
-    background-color: rgb(50, 160, 140);;
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
 }
 
+.container3 > div{
+    background-color: rgba(104, 30, 30, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+    border-radius: 15px;
+}
+
+
 #mapbox{
-    background-color: rgb(117, 201, 214);
+    position: absolute;
+    margin: 50px;
+    padding: 50px;
+
+    
+}
+
+img.location{
+    border: 5px solid rgba(116, 141, 153, 0.2);
+    background-color: aquamarine;
     background-size: 100%;
+    border-radius: 15px;
+}
+
+label{
+    font-size:20px;
+    color: wheat;
+}
+
+.button{
+    text-align: center;
+    border: #333;
 }
