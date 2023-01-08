@@ -4,9 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-#header{
-    font-family: 'Trebuchet MS', sans-serif;
-    padding: auto;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 .navigation_bar{
     background-color: #333;
@@ -19,10 +21,7 @@
     overflow: hidden;
     background-color: #333;
 }
-
-/*Note: This is one of the only ways I found to make a heading. TODO: Make it look similar to the wireframing
- but this will work for now.*/
- #navbox{
+#navbox{
     float: left;
 }
   
@@ -33,9 +32,6 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-#navbox a b{
-    background-color: #111;
-}
 #navbox a:hover{
     background-color: #111;
     cursor: pointer;
@@ -43,17 +39,6 @@
 .selectednav{
     background-color: #111;
 }
-
-div{ 
-    background-color: rgba(173, 207, 212, 0.2);
-    border-radius: 2px;
-    border-width: 2px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .gallery{
     width: 100%;
 }
@@ -63,7 +48,6 @@ div{
     padding: 5px;
     margin: 0;
 }
-
 .mainbox{
     display: flex;
     justify-content: center;
@@ -76,25 +60,41 @@ div{
     padding: 50px;
 }
 
+div{ 
+    background-color: rgba(173, 207, 212, 0.2);
+    border-radius: 2px;
+    border-width: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .container2{
-    display: inline-grid;
     width: 1344px;
     border: 3px solid rgb(0, 255, 208);
-    object-position: center;
+    object-position:left;
     padding: 10px;
     min-height: 40;
-    background-color: aqua;
+    background-color: rgb(95, 169, 169);
+
+    display: grid;
+    grid-template: 100px / auto auto auto auto auto;
+    grid-gap: 10px;
 }
     
 
-.c2-item{
+.container2 > div{
     width: 200px;
     padding: 5px;
-    display: inline-grid;
     border-radius: 1px;
-    column-gap: 80px;
-    grid-row-start: 1;
+    column-gap: 10px;
+    
+    font-size: 5px;
+    font-style: italic;
+    font-weight: 10%;
 }
+
 
 img.MerchLogo{
     background: transparent;
@@ -105,8 +105,8 @@ img.MerchLogo{
 
 img.option2 {
     background: transparent;
-    border: 3px solid rgba(116, 141, 153, 0.2);
-    border-radius: 10px;
+    border: 5px solid rgba(116, 141, 153, 0.2);
+    border-radius: 5px;
     max-width: 50%;
     
 }
@@ -126,3 +126,12 @@ body{
     background-image: url(/Images/Fireworks3.jpg);    
 }
 
+.container3{
+    display: inline-grid;
+    width: 1344px;
+    border: 3px solid rgb(0, 255, 208);
+    object-position: center;
+    padding: 10px;
+    min-height: 40;
+    background-color: aqua;
+}
