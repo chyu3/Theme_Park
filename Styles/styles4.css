@@ -70,7 +70,7 @@ div{
     background-color: #111;
 }
 .logo {
-    width: 100%;
+    width: auto;
     height: 50px;
     text-align: center;
 }
