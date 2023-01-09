@@ -1,1 +1,1 @@
-http://127.0.0.1:3000/main.html
+http://webdev124final.s3-website-ap-northeast-1.amazonaws.com/main.html
